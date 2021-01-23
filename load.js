@@ -2,7 +2,7 @@ const path = require('path')
 const fs = require('fs')
 
 module.exports = (client) => {
-  const handler = require(`./handler.js`)
+  const handler = require(`./cmds/handler.js`)
 
   const cmd = []
 
